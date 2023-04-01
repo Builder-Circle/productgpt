@@ -15,23 +15,23 @@ const Footer = ({textColor = "black"} : {textColor?: string}) => {
       <Text my={{md: 0, sm: 5, base: 5}} textAlign={{sm: 'center', base: 'center'}}>© Copyright ProductGPT 2023 All rights reserved.</Text>
       <HStack spacing={4} pl={5}>
         {/* <FaDiscord /> */}
-        <FaTwitter
+        {/* <FaTwitter
           size={"1.5rem"}
           cursor={"pointer"}
           onClick={(e) => {
             e.preventDefault();
             window.open("#", "_blank", "noopener,noreferrer");
           }}
-        />
+        /> */}
         {/* <FaTelegram /> */}
-        <FaFacebook
+        {/* <FaFacebook
           size={"1.5rem"}
           cursor={"pointer"}
           onClick={(e) => {
             e.preventDefault();
             window.open("#", "_blank", "noopener,noreferrer");
           }}
-        />
+        /> */}
       </HStack>
     </Flex>
   );
